@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitscurrent/FullStackIoT.git"
+  },
+  "keywords": [
+    "iot",
+    "raspberry",
+    "pi",
+    "ldr"
+  ],
+  "author": "dilip",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitscurrent/FullStackIoT/issues"
+  },
+  "homepage": "https://github.com/bitscurrent/FullStackIoT#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
